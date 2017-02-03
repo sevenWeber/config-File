@@ -1,0 +1,21 @@
+{
+	"extends": "airbnb",
+	"rules": {
+		"comma-dangle": ["error", "never"],
+		"indent": ["error", "tab"],
+		"no-tabs": 0,
+		"react/jsx-indent": ["error", "tab"],
+		"linebreak-style": 0,
+		"react/forbid-prop-types": ["error", { "forbid": ["any", "array"] }],
+		"react/jsx-indent-props": ["error", "tab"]
+	},
+	"globals": {
+	    "document": true,
+	    "window": true,
+     	"alert": true,
+     	"Headers": true,
+     	"XMLHttpRequest": true,
+      "jsCASignHtml5": true,
+      "jsCADecryptHtml5": true
+	}
+}
